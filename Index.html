@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Assurez-vous de créer un fichier CSS nommé "styles.css" pour le design -->
+    <title>Mon Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Chayma Khedhri</h1>
+        <p>Consultante BI</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#competences">J’ai des compétences solides, en analyse de données, en visualisation de données et en modélisation de données</a></li>
+            <li><a href="#education">Master en Informatique Décisionnelle et Intelligente appliquée à la Gestion Spécialité Optimisation et Système Intelligent</a></li>
+            <li><a href="#projets">La mise en place d'une solution De Business Intelligence pour une agence Immobilière</a></li>
+            <li><a href="#contact">chaymakhedhri16@gmail.com</a></li>
+        </ul>
+    </nav>
+
+    <section id="competences">
+        <h2>Soft Skills:
+Capacité d’apprentissage, Pensée analytique, Résolution de problèmes, Communication efficace, Collaboration, Créativité, Flexibilité
+Hard Skills:Power BI, SQL, ETL, Big Data, MySQL, Microsoft SQL Server, Python, R, Agile scrum, UML, HTML5/CSS, PHP, Talend, Microsoft Power BI, Jupyter, Word, Powerpoint, Excel, Staruml</h2>
+        <!-- Insérez ici la liste de vos compétences -->
+    </section>
+
+    <section id="education">
+        <h2>Master en Informatique Décisionnelle et Intelligente appliquée à la Gestion spécialité Optimisation et Système Intelligent  2022 – 2024  ESC Tunis
+Licence en informatique de gestion Spécialité: Informatique Décisionnelle  2019 – 2022  FSJEGJ
+Baccalauréat Spécialité: Sciences Expérimentales  2019  lycée Omar kalchani Béja</h2>
+        <!-- Insérez ici votre parcours éducatif -->
+    </section>
+
+    <section id="projets">
+        <h2>La mise en place d'une solution De Business Intelligence pour une agence Immobilière</h2>
+        <!-- Insérez ici des informations sur vos projets avec des descriptions, des images, et des liens -->
+    </section>
+
+
+    <section id="contact">
+        <h2>chaymakhedhri16@gmail.com</h2>
+        <!-- Insérez ici un formulaire de contact ou vos informations de contact -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Mon Portfolio</p>
+    </footer>
+<button id="scrollTopButton">Haut de page</button>
+// Récupérez une référence vers le bouton
+const scrollTopButton = document.getElementById('scrollTopButton');
+
+// Ajoutez un gestionnaire d'événement pour le clic sur le bouton
+scrollTopButton.addEventListener('click', () => {
+    // Faites défiler la page vers le haut en utilisant le comportement de scroll "smooth"
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+<script src="script.js"></script>
+
+</body>
+</html>
